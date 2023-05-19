@@ -43,5 +43,11 @@ namespace pryPeriottiControlesBasicos
         {
             lblBienvenido.Location = new Point(random.Next(10, 1000), random.Next(10, 700));
         }
+
+        private void cmdSecundario_Click(object sender, EventArgs e)
+        {
+            frmSecundario secundario = new frmSecundario();
+            secundario.ShowDialog();
+        }
     }
 }

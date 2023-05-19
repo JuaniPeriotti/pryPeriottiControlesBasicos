@@ -31,6 +31,7 @@
             this.lblEjeX = new System.Windows.Forms.Label();
             this.lblEjeY = new System.Windows.Forms.Label();
             this.lblBienvenido = new System.Windows.Forms.Label();
+            this.cmdSecundario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblEjeX
@@ -61,7 +62,7 @@
             this.lblBienvenido.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblBienvenido.AutoSize = true;
             this.lblBienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenido.Location = new System.Drawing.Point(12, 165);
+            this.lblBienvenido.Location = new System.Drawing.Point(37, 170);
             this.lblBienvenido.Name = "lblBienvenido";
             this.lblBienvenido.Size = new System.Drawing.Size(457, 73);
             this.lblBienvenido.TabIndex = 2;
@@ -69,11 +70,23 @@
             this.lblBienvenido.Visible = false;
             this.lblBienvenido.MouseEnter += new System.EventHandler(this.lblBienvenido_MouseEnter);
             // 
+            // cmdSecundario
+            // 
+            this.cmdSecundario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cmdSecundario.Location = new System.Drawing.Point(210, 336);
+            this.cmdSecundario.Name = "cmdSecundario";
+            this.cmdSecundario.Size = new System.Drawing.Size(95, 27);
+            this.cmdSecundario.TabIndex = 3;
+            this.cmdSecundario.Text = "SECUNDARIO";
+            this.cmdSecundario.UseVisualStyleBackColor = true;
+            this.cmdSecundario.Click += new System.EventHandler(this.cmdSecundario_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 450);
+            this.Controls.Add(this.cmdSecundario);
             this.Controls.Add(this.lblBienvenido);
             this.Controls.Add(this.lblEjeY);
             this.Controls.Add(this.lblEjeX);
@@ -95,5 +108,6 @@
         private System.Windows.Forms.Label lblEjeX;
         private System.Windows.Forms.Label lblEjeY;
         private System.Windows.Forms.Label lblBienvenido;
+        private System.Windows.Forms.Button cmdSecundario;
     }
 }
