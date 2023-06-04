@@ -34,7 +34,7 @@ namespace pryPeriottiControlesBasicos
             if (optAzul.Checked == true)
             {
                 lblCopiado.ForeColor = Color.Blue;
-                txtTexto.ForeColor= Color.Blue;
+                txtTexto.ForeColor = Color.Blue;
             }
 
         }
@@ -47,18 +47,30 @@ namespace pryPeriottiControlesBasicos
         private void cmdSeleccionar_Click(object sender, EventArgs e)
         {
             lblCopiado.Text = "";
-            if(chkChimichurri.Checked)
+            if (chkMayonesa.Checked)
             {
-                lblSeleccion.text
+                lblCopiado.Text += "Mayonesa ";
             }
+            if (chkChimichurri.Checked)
+            {
+                lblCopiado.Text += "Chimichurri ";
+            }
+            if (chkKetchup.Checked)
+            {
+                lblCopiado.Text += "Ketchup";
+            }
+            
+
         }
 
         private void lblCopiado_Click(object sender, EventArgs e)
         {
-            if (chkChimichurri.Checked)
-            {
-                
-            }
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

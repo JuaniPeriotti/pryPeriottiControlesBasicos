@@ -34,10 +34,9 @@
             this.cmdAsignar = new System.Windows.Forms.Button();
             this.lblCopiado = new System.Windows.Forms.Label();
             this.mrcAderezos = new System.Windows.Forms.GroupBox();
-            this.chkMayonesa = new System.Windows.Forms.CheckBox();
-            this.chkChimichurri = new System.Windows.Forms.CheckBox();
             this.chkKetchup = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.chkChimichurri = new System.Windows.Forms.CheckBox();
+            this.chkMayonesa = new System.Windows.Forms.CheckBox();
             this.cmdSeleccionar = new System.Windows.Forms.Button();
             this.mrcAderezos.SuspendLayout();
             this.SuspendLayout();
@@ -109,15 +108,15 @@
             this.mrcAderezos.TabStop = false;
             this.mrcAderezos.Text = "Aderezos";
             // 
-            // chkMayonesa
+            // chkKetchup
             // 
-            this.chkMayonesa.AutoSize = true;
-            this.chkMayonesa.Location = new System.Drawing.Point(6, 49);
-            this.chkMayonesa.Name = "chkMayonesa";
-            this.chkMayonesa.Size = new System.Drawing.Size(75, 17);
-            this.chkMayonesa.TabIndex = 0;
-            this.chkMayonesa.Text = "Mayonesa";
-            this.chkMayonesa.UseVisualStyleBackColor = true;
+            this.chkKetchup.AutoSize = true;
+            this.chkKetchup.Location = new System.Drawing.Point(309, 49);
+            this.chkKetchup.Name = "chkKetchup";
+            this.chkKetchup.Size = new System.Drawing.Size(66, 17);
+            this.chkKetchup.TabIndex = 2;
+            this.chkKetchup.Text = "Ketchup";
+            this.chkKetchup.UseVisualStyleBackColor = true;
             // 
             // chkChimichurri
             // 
@@ -129,27 +128,19 @@
             this.chkChimichurri.Text = "Chimichurri";
             this.chkChimichurri.UseVisualStyleBackColor = true;
             // 
-            // chkKetchup
+            // chkMayonesa
             // 
-            this.chkKetchup.AutoSize = true;
-            this.chkKetchup.Location = new System.Drawing.Point(309, 49);
-            this.chkKetchup.Name = "chkKetchup";
-            this.chkKetchup.Size = new System.Drawing.Size(66, 17);
-            this.chkKetchup.TabIndex = 2;
-            this.chkKetchup.Text = "Ketchup";
-            this.chkKetchup.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(100, 332);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(225, 21);
-            this.comboBox1.TabIndex = 7;
+            this.chkMayonesa.AutoSize = true;
+            this.chkMayonesa.Location = new System.Drawing.Point(6, 49);
+            this.chkMayonesa.Name = "chkMayonesa";
+            this.chkMayonesa.Size = new System.Drawing.Size(75, 17);
+            this.chkMayonesa.TabIndex = 0;
+            this.chkMayonesa.Text = "Mayonesa";
+            this.chkMayonesa.UseVisualStyleBackColor = true;
             // 
             // cmdSeleccionar
             // 
-            this.cmdSeleccionar.Location = new System.Drawing.Point(183, 287);
+            this.cmdSeleccionar.Location = new System.Drawing.Point(183, 286);
             this.cmdSeleccionar.Name = "cmdSeleccionar";
             this.cmdSeleccionar.Size = new System.Drawing.Size(75, 23);
             this.cmdSeleccionar.TabIndex = 8;
@@ -161,9 +152,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 366);
+            this.ClientSize = new System.Drawing.Size(436, 331);
             this.Controls.Add(this.cmdSeleccionar);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.mrcAderezos);
             this.Controls.Add(this.lblCopiado);
             this.Controls.Add(this.cmdAsignar);
@@ -190,7 +180,6 @@
         private System.Windows.Forms.CheckBox chkKetchup;
         private System.Windows.Forms.CheckBox chkChimichurri;
         private System.Windows.Forms.CheckBox chkMayonesa;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button cmdSeleccionar;
     }
 }
